@@ -1,4 +1,4 @@
-# Lab 8 – Email Services.
+# Email Services
 
 Email integrations provide an easy, cost-effective way to send and
 receive emails for various use cases (e.g., marketing, notifications,
