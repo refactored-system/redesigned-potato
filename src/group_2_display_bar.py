@@ -93,7 +93,7 @@ class DisplayBar(tk.Tk):
         self.canvas.create_text(15, 50, text="Temperature (°C)", anchor=tk.E, angle=90)
 
         # Draw the numerical values on the X axis
-        for i in range(0, 26, 5):
+        for i in range(0, 7, 1):
             x = 50 + (i * self.x_dist)
             self.canvas.create_text(x, 288, text=f"{i}", anchor=tk.N)
 
