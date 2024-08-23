@@ -74,6 +74,7 @@ code.
 
 1. You must use only the libraries that are available in the standard
     Python distribution.
+2. Your code file will be named group_«your_group_number»_data_generator.py e.g. group_1_data_generator.py.
 
 ## Sample Code
 
