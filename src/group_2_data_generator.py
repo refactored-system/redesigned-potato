@@ -32,23 +32,3 @@ class DataGenerator:
 
         # Return the value
         return y
-
-
-def main():
-
-    # Create an instance of the DataGenerator class with 500 data points
-    generator = DataGenerator(500)
-
-    # Generate the temperature dataset with values between 18 and 21 degrees Celsius
-    y = generator.getTemperatureSensorDataset(18, 21)
-
-    # Plot the generated temperature data
-    plt.plot(y)
-    plt.title("Temperature")
-    plt.xlabel("index")
-    plt.ylabel("Temperature(℃)")
-    plt.show()
-
-
-if __name__ == "__main__":
-    main()
